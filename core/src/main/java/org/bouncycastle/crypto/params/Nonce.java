@@ -14,14 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.spongycastle.crypto.params;
+package org.bouncycastle.crypto.params;
 
 import java.util.Arrays;
 
-import org.strippedcastle.crypto.CipherParameters;
-import org.strippedcastle.crypto.DataLengthException;
-import org.strippedcastle.crypto.prng.RandomGenerator;
-import org.strippedcastle.crypto.MaxBytesExceededException;
+import org.bouncycastle.crypto.CipherParameters;
+import org.bouncycastle.crypto.DataLengthException;
+import org.bouncycastle.crypto.prng.RandomGenerator;
+import org.bouncycastle.crypto.MaxBytesExceededException;
 
 import com.orwell.csprng.ISAACRandomGenerator;
 
